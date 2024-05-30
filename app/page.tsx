@@ -1,6 +1,5 @@
 import React from 'react'
 import { Text, Page, Link, List } from '@vercel/examples-ui'
-import ServerExample from '../lib/ServerExample'
 
 export const metadata = {
   title: 'Vercel x Hypertune example',
@@ -32,7 +31,6 @@ export default async function Home() {
       </section>
 
       <section className="flex flex-col gap-4">
-        <ServerExample />
         <Text>
           Once you&apos;ve deployed this project, open the{' '}
           <Link href="https://app.hypertune.com/" target="_blank">
